@@ -39,7 +39,7 @@ try:
         if result[0][2] == 1:
             print("<meta http-equiv='refresh' content='0;url=http://127.0.0.1:87/adminPage.py'>")
         else:
-            print("<meta http-equiv='refresh' content='0;url=http://127.0.0.1:87/home.html'>")
+            print("<meta http-equiv='refresh' content='0;url=http://127.0.0.1:87/home.py'>")
     else:
         # L'utente non è stato trovato nel database
         print("Content-type: text/html\n")

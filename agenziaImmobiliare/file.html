@@ -1,81 +1,98 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form POST</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
-<body>
-    <div class="container mt-5">
-        <form action="pagina_destinazione.py" method="post">
-            <div class="form-group">
-                <label for="indirizzo">Indirizzo:</label>
-                <input type="text" class="form-control" id="indirizzo" name="indirizzo">
-            </div>
 
-            <div class="form-group">
-                <label for="numero_vani">Numero Vani:</label>
-                <input type="number" class="form-control" id="numero_vani" name="numero_vani" min="1">
-            </div>
 
-            <div class="form-group">
-                <label for="metratura">Metratura:</label>
-                <input type="number" class="form-control" id="metratura" name="metratura" min="1">
-            </div>
 
-            <div class="form-group">
-                <label for="piano">Piano:</label>
-                <input type="number" class="form-control" id="piano" name="piano" min="1">
-            </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Fancy Product</h5>
+                                    <!-- Product price-->
+                                    $40.00 - $80.00
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-            <div class="form-group">
-                <label for="ascensore">Ascensore:</label>
-                <select class="form-control" id="ascensore" name="ascensore">
-                    <option value="Si">Si</option>
-                    <option value="No">No</option>
-                </select>
-            </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Fancy Product</h5>
+                                    <!-- Product price-->
+                                    $40.00 - $80.00
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-            <div class="form-group">
-                <label for="prezzo">Prezzo:</label>
-                <input type="number" class="form-control" id="prezzo" name="prezzo" min="1">
-            </div>
 
-            <div class="form-group">
-                <label for="venduto">Venduto:</label>
-                <select class="form-control" id="venduto" name="venduto">
-                    <option value="Si">Si</option>
-                    <option value="No">No</option>
-                </select>
-            </div>
-
-            <div class="form-group">
-                <label for="agenzia">Agenzia:</label>
-                <select class="form-control" id="agenzia" name="agenzia">
-                    <option value="1">Agenzia 1</option>
-                    <option value="2">Agenzia 2</option>
-                    <!-- Aggiungi qui altre opzioni se necessario -->
-                </select>
-            </div>
-
-            <div class="form-group">
-                <label for="localita">Località:</label>
-                <select class="form-control" id="localita" name="localita">
-                    <option value="1">Località 1</option>
-                    <option value="2">Località 2</option>
-                    <!-- Aggiungi qui altre opzioni se necessario -->
-                </select>
-            </div>
-
-            <button type="submit" class="btn btn-primary">Invia</button>
-        </form>
-    </div>
-
-    <!-- Bootstrap JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Fancy Product</h5>
+                                    <!-- Product price-->
+                                    $40.00 - $80.00
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Fancy Product</h5>
+                                    <!-- Product price-->
+                                    $40.00 - $80.00
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+      
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Fancy Product</h5>
+                                    <!-- Product price-->
+                                    $120.00 - $280.00
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">{indirizzo}</h5>
+                                    <!-- Product price-->
+                                    {prezzo}
+                                </div>
+                            </div>
+                        </div>
+                    </div>

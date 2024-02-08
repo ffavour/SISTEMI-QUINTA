@@ -24,12 +24,13 @@ print("""
         <link rel="icon" type="image/x-icon" href="assetsHome/favicon.ico" />
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="cssHome/styles.css" rel="stylesheet" />
     </head>
     <body>
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container px-4 px-lg-5">
                 <a class="navbar-brand" href="#!">Agenzia Immobiliare</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -39,11 +40,10 @@ print("""
                         <li class="nav-item"><a class="nav-link active" href="aggiungiImmobile.py">Aggiungi un immobile</a></li>
                         <li class="nav-item"><a class="nav-link" href="aggiungiUtente.py">Aggiungi un utente</a></li>
                     </ul>
-                    
+                    <li class="nav-item" style="color:white;"><a class="nav-link" href="index.html">Logout</a></li>  
                 </div>
             </div>
-        </nav>
-        <br>
+        </nav><br>
         <center><h3>Aggiungi un immobile</h3></center>
       """)
 
@@ -55,22 +55,22 @@ print("""
             <div class="form-group">
                 <label for="indirizzo">Indirizzo:</label>
                 <input type="text" class="form-control" id="indirizzo" name="indirizzo">
-            </div><br>
+            </div>
 
             <div class="form-group">
                 <label for="numero_vani">Numero Vani:</label>
                 <input type="number" class="form-control" id="numero_vani" name="numero_vani" min="1">
-            </div><br>
+            </div>
 
             <div class="form-group">
                 <label for="metratura">Metratura:</label>
                 <input type="number" class="form-control" id="metratura" name="metratura" min="1">
-            </div><br>
+            </div>
 
             <div class="form-group">
                 <label for="piano">Piano:</label>
                 <input type="number" class="form-control" id="piano" name="piano" min="1">
-            </div><br>
+            </div>
 
             <div class="form-group">
                 <label for="ascensore">Ascensore:</label>
@@ -83,7 +83,7 @@ print("""
             <div class="form-group">
                 <label for="prezzo">Prezzo:</label>
                 <input type="number" class="form-control" id="prezzo" name="prezzo" min="1">
-            </div><br>
+            </div>
 
             <div class="form-group">
                 <label for="venduto">Venduto:</label>
@@ -91,7 +91,7 @@ print("""
                     <option value="Si">Si</option>
                     <option value="No">No</option>
                 </select>
-            </div><br>
+            </div>
       """)
 
 #query per select agenzia
